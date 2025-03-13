@@ -1,0 +1,185 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      
+}
+body{
+      background-color: rgb(193, 216, 195);
+}
+
+.center {
+      border: 1px solid black;
+      background-image: url(/tea4.jpg) ;
+      width: 100%;
+      height: 500px;
+      overflow: hidden;
+      
+     
+      }
+.heading{
+          margin: 5px;
+          padding: 10px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          font-size: 70px;
+          
+}
+.heading span{
+      color: brown;
+}
+.boxblack{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 5%;
+}  
+.center .boxblack nav ul{
+      list-style: none;
+      display: flex;
+
+}
+.center .boxblack nav ul li{
+      padding: 10px 20px 30px;
+   
+}
+.center .boxblack nav ul li a{
+      color:black;
+      text-decoration: none;
+      font-size: 30px;
+      font-weight: 5000;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.center .boxblack nav ul li a:hover{
+      background-color:greenyellow;
+      border-radius: 5px;
+
+}
+nav ul li a:focus{
+      background-color:goldenrod;
+}
+.center .textaling h2{
+      
+      margin:10px 50px 0px;
+      padding: 140px;
+      font-size: 40px;
+      text-shadow: 1.5px 0 gray;
+      
+}
+.heading2{
+      margin: 10px;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+}
+.point{
+      font-size: 50px;
+
+}
+.videos1{
+
+     width:1030px;
+     height: 420px;
+     padding-left: 220px;
+}
+.heading3{
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+}
+.login{
+      width: 500px;
+      height: 300px;
+      margin-left: 500px;
+      padding: 10px 40px 30px;
+      font-size: 30px;
+      
+      
+}
+.login label{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login input{
+      width: 100%;
+      height: 30px;
+      border: 3px solid rgb(9, 51, 9);
+      border-radius: 8px;
+      padding: 15px 10px;
+      box-sizing: border-box;
+
+}
+input:focus{
+      background-color: aquamarine;
+}
+.bts{
+      text-align: center;
+}
+button{
+      background-color: aqua;
+      font-size: 30px;
+      margin-top: 20px;
+      padding:10px 15px;
+      border-radius: 30px;
+      background-color: rgba(0, 255, 255, 0.479);
+}
+.abouts{
+      margin: 80px;
+}
+.bts2 li{
+      
+      padding: 10px;
+      list-style: none;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+}
+.bts2 li h1 a{
+      margin: 30px;
+      padding: 10px;
+      color: brown;
+      text-decoration: none;
+      
+
+}
+.bts2 li h1 a:hover{
+      background-color: bisque;
+      border-radius: 50px;
+}
+      
+.abouts{
+         text-align: center;
+         font-size: 20px;
+}
+
+.p1{
+      padding: 15px;
+      font-size: 25px;
+      font-weight: bold;
+      
+      
+}
+.img2{
+      margin: 10px;
+      padding: px;
+      text-align: center;
+}
+.origin{
+       color: brown;
+      font-size: 50px;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+}
+.p2{
+      text-align: center;
+      font-size: 1.5rem;
+      font-weight: bolder;
+
+      
+}
+.teaimg2{
+         
+      margin: 10px;
+      padding: 100px;
+      padding-left:500px;
+}
+
